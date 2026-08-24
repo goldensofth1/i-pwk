@@ -51,18 +51,18 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
-          <div className="flex flex-wrap items-center gap-2">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+          <div className="flex items-center gap-2">
             <div className="w-6 h-6 rounded-lg bg-red-600 text-white flex items-center justify-center">
               <Layers className="w-3.5 h-3.5" />
             </div>
             <span className="font-bold text-slate-800">I PWK — PDF CRAFT STUDIO</span>
             <span className="text-slate-400">•</span>
-            <span className="text-slate-600 font-medium">พัฒนาโดย <strong className="text-slate-900 font-semibold">นายทศพร คำเพชร (บาส)</strong></span>
+            <span>โต๊ะช่างไฟล์ PDF ส่วนตัว</span>
           </div>
 
-          <p className="text-slate-400">
-            Client-Side Architecture • WebAssembly & Canvas Engine
+          <p className="text-slate-600 font-medium">
+            พัฒนาโดย <span className="font-bold text-slate-900">นายทศพร คำเพชร (บาส)</span>
           </p>
         </div>
       </div>

@@ -34,12 +34,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
-          className="inline-flex flex-wrap items-center justify-center gap-2 px-4 py-1.5 rounded-full bg-red-50 text-red-700 border border-red-200 text-xs font-semibold mb-4 shadow-sm"
+          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-50 text-red-700 border border-red-200 text-xs font-semibold mb-4 shadow-sm"
         >
           <span className="w-2 h-2 rounded-full bg-red-500 animate-ping" />
           <span className="font-bold">I PWK PDF STUDIO</span>
-          <span className="text-red-300">•</span>
-          <span>พัฒนาโดย นายทศพร คำเพชร (บาส)</span>
         </motion.div>
 
         {/* Headline */}
