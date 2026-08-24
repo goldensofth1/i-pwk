@@ -1,0 +1,6 @@
+{
+  "name": "I PWK — สตูดิโอจัดการและแปลงไฟล์ PDF",
+  "description": "I PWK ชุดเครื่องมือจัดการและแปลงไฟล์ PDF, Word, Excel, รูปภาพ ประมวลผลบนเบราว์เซอร์ 100% พัฒนาโดย นายทศพร คำเพชร (บาส)",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
